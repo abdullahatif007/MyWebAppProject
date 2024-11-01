@@ -71,5 +71,29 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 =======
 # MyWebAppProject
-A Python web application integrated with React and Flask
+## Overview
+This is a web application featuring a frontend built with React and a backend powered by Flask. The project supports cross-origin requests and is designed for seamless integration between the client and server.
+
+## Features
+- **Frontend**: React-based user interface for a login form and user interactions.
+- **Backend**: Flask API with endpoints for handling data processing and user requests.
+- **CORS Support**: Configured to allow cross-origin requests using `Flask-CORS`.
+- **Responsive Design**: The application adjusts dynamically to different screen sizes.
+
+## Technologies Used
+- **React**: Version 17.0.2 (as specified in `package.json`).
+- **Flask**: Python web framework specified in `requirement.txt`.
+- **Flask-CORS**: For handling cross-origin requests.
+
+## Installation
+### Prerequisites
+- Python 3.11.4 (or as specified in `python-version.txt`)
+- Node.js (for running the frontend)
+
+### Setup
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/WebAppProject.git
+   cd WebAppProject
+
 >>>>>>> 46c86913617aade97206b80fc4710fc15faaeaa1
